@@ -40,15 +40,21 @@ c) Display the updated number of unique mice IDs.
 a) Create a DataFrame of summary statistics. 
   
   Your summary statistics should include:
+
   a. A row for each drug regimen. These regimen names should be contained in the index column.
+ 
   b. A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
     
 b) Create Bar Charts and Pie Charts to show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
+
   a. Create the first bar chart with the Pandas DataFrame.plot() method.
+ 
   b. Create the second bar chart with Matplotlib's pyplot methods.
 
 c) Generate two pie charts to show the distribution of female versus male mice in the study.
+
   a. Create the first pie chart with the Pandas DataFrame.plot() method.
+
   b. Create the second pie chart with Matplotlib's pyplot methods.
 
 d) Calculate Quartiles, Find Outliers, and Create a Box Plot
