@@ -31,62 +31,62 @@ This assignment is broken down into the following tasks:
 
 **Prepare the Data**- 
 
-a) Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
+  a) Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
 
-b) Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
+  b) Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
 
-c) Display the updated number of unique mice IDs.
+  c) Display the updated number of unique mice IDs.
 
 **Generate Summary Statistics**- 
 
-a) Create a DataFrame of summary statistics. 
+  a) Create a DataFrame of summary statistics. 
   
   Your summary statistics should include:
 
-  a. A row for each drug regimen. These regimen names should be contained in the index column.
+      a. A row for each drug regimen. These regimen names should be contained in the index column.
  
-  b. A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+      b. A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
     
-b) Create Bar Charts and Pie Charts to show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
+  b) Create Bar Charts and Pie Charts to show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
 
-  a. Create the first bar chart with the Pandas DataFrame.plot() method.
+      a. Create the first bar chart with the Pandas DataFrame.plot() method.
  
-  b. Create the second bar chart with Matplotlib's pyplot methods.
+      b. Create the second bar chart with Matplotlib's pyplot methods.
 
-c) Generate two pie charts to show the distribution of female versus male mice in the study.
+  c) Generate two pie charts to show the distribution of female versus male mice in the study.
 
-  a. Create the first pie chart with the Pandas DataFrame.plot() method.
+      a. Create the first pie chart with the Pandas DataFrame.plot() method.
 
-  b. Create the second pie chart with Matplotlib's pyplot methods.
+      b. Create the second pie chart with Matplotlib's pyplot methods.
 
-d) Calculate Quartiles, Find Outliers, and Create a Box Plot
+  d) Calculate Quartiles, Find Outliers, and Create a Box Plot
 
   Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. 
 
   Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
 
-  a. Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
+      a. Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
  
-  b. Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+      b. Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
  
-  c. Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. 
+      c. Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. 
 
-  d. Append the resulting final tumor volumes for each drug to the empty list.
+      d. Append the resulting final tumor volumes for each drug to the empty list.
 
-  e. Determine outliers by using the upper and lower bounds, and then print the results.
+      e. Determine outliers by using the upper and lower bounds, and then print the results.
 
-e) Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group.
+  e) Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group.
  
   Highlight any potential outliers in the plot by changing their color and style.
 
-  a. Create a Line Plot and a Scatter Plot
+      a. Create a Line Plot and a Scatter Plot
  
-  b. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+      b. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
-  c. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+      c. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
 
-f) Calculate Correlation and Regression
+  f) Calculate Correlation and Regression
+   
+      a. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
  
-  a. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
- 
-  b. Plot the linear regression model on top of the previous scatter plot.
+      b. Plot the linear regression model on top of the previous scatter plot.
