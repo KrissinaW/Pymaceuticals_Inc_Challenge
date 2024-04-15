@@ -3,6 +3,7 @@ Module 5 Challenge- applying what I've learned about Matplotlib to a real-world 
 
 
 **Background:**
+
 I have just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
 As a senior data analyst at the company, I have been given access to the complete data from their most recent animal study. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
@@ -11,6 +12,7 @@ The executive team has tasked me with generating all of the tables and figures n
 
 
 **Instructions:**
+
 This assignment is broken down into the following tasks:
 
 - Prepare the data.
@@ -58,7 +60,9 @@ c) Generate two pie charts to show the distribution of female versus male mice i
   b. Create the second pie chart with Matplotlib's pyplot methods.
 
 d) Calculate Quartiles, Find Outliers, and Create a Box Plot
+
   Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. 
+
   Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
 
   a. Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
@@ -72,6 +76,7 @@ d) Calculate Quartiles, Find Outliers, and Create a Box Plot
   e. Determine outliers by using the upper and lower bounds, and then print the results.
 
 e) Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group.
+ 
   Highlight any potential outliers in the plot by changing their color and style.
 
   a. Create a Line Plot and a Scatter Plot
