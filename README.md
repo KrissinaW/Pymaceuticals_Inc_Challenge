@@ -1,8 +1,9 @@
 # Pymaceuticals_Inc_Challenge
 Module 5 Challenge- applying what I've learned about Matplotlib to a real-world situation and dataset.
-
+![pngimg com - rat_mouse_PNG23538](https://github.com/KrissinaW/Pymaceuticals_Inc_Challenge/assets/162597320/28bc03ac-671e-4b7e-9ed9-2449bccac6ab)
 
 **Background:**
+
 
 I have just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
