@@ -1,6 +1,7 @@
 # Pymaceuticals_Inc_Challenge
 Module 5 Challenge- applying what I've learned about Matplotlib to a real-world situation and dataset.
-![pngimg com - rat_mouse_PNG23538](https://github.com/KrissinaW/Pymaceuticals_Inc_Challenge/assets/162597320/28bc03ac-671e-4b7e-9ed9-2449bccac6ab)
+
+![1-pngimg com - rat_mouse_PNG2466](https://github.com/KrissinaW/Pymaceuticals_Inc_Challenge/assets/162597320/b236fdc7-8239-4253-8634-e41ae3869568)
 
 **Background:**
 
