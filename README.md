@@ -49,7 +49,7 @@ A balanced sample reduces the risk of bias by ensuring that gender-specific fact
 
 Based on the data provided these two treatments have been the most successful in reducing tumor volume in the test subjects. These treatments also have a lower standard deviation compared to other treatments in the study.
 
-**Further Research:** 
+** **Further Research:** **
 
 I feel that it would be important to study the age of the mouse and the success of the treatments. 
 
