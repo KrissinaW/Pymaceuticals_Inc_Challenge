@@ -54,4 +54,6 @@ Based on the data provided these two treatments have been the most successful in
 I feel that it would be important to study the age of the mouse and the success of the treatments. 
 
 The age of the mouse could provide valuable insights in tumor testing by showing the effectiveness of treatments since the age of the mouse might influence how well the tumore responds to the treatments.  Younger mice may have a more robust immune system or could be more resilient to side effects compared to their older counterparts. 
+Jav
 
+**Working through this code assignment, I found Chat GPT to be quite useful, however I was provided 1 on 1 assistance by the TA Javier Vargas to assist me in successfully plotting my line graph.  He was able to help me see that I was using an incorrect data frame and that was the reason the line was not populating but rather a single marker.  This assistance was crucial in the successful outcome of the line plot required for this assignment.  I was also able to utilize past module activities as examples of how to initiate the code and to plot the various charts. Public GitHub repositories were also used as examples and to assist me in debugging my code when errors would throw up.
